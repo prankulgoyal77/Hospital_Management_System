@@ -1,45 +1,22 @@
-# 🏥 Hospital Management System (Java + JDBC + MySQL)
+# Hospital Management System
 
-A simple **console-based hospital management system** built using **Java, JDBC, and MySQL**, designed to manage patients, doctors, appointments, and billing operations.
+**Tech:** Java • JDBC • MySQL
 
----
+## Overview
+Console-based Hospital Management System with modular CRUD operations for Patients, Appointments, and Billing. PreparedStatements used to prevent SQL injection and OOP principles followed.
 
-## 🚀 Features
+## Features
+- Patient registration & management (CRUD)  
+- Appointment scheduling  
+- Billing summary & simple reports
 
-- ✅ Add, View Patients
-- ✅ Doctor Management (extendable)
-- ✅ Appointment Scheduling (extendable)
-- ✅ Billing Module (optional add-on)
-- ✅ View Records in Tabular Format
-- ✅ JDBC + MySQL Integration
-- ✅ Console Input Handling with Java Scanner
-- ✅ Error Handling with Try-Catch Blocks
+## Requirements
+- Java 8+  
+- MySQL server  
+- MySQL JDBC driver (e.g., `mysql-connector-java.jar`)
 
----
-
-## 🧰 Technologies Used
-
-| Technology | Purpose                |
-|------------|------------------------|
-| Java       | Core application logic |
-| JDBC       | Database connectivity  |
-| MySQL      | Backend database       |
-| IntelliJ   | Development IDE        |
-| GitHub     | Version control        |
-
----
-
-## 🧱 Database Schema (patients table)
-
-```sql
-CREATE TABLE patients (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    age INT,
-    gender VARCHAR(20)
-);
-🙋‍♂️ Author
-Prankul Goyal
-🎓 B.Tech CSE | Java Developer | Frontend Enthusiast
-📧 goyalprankul27@gmail.com
-
+## Setup
+1. Clone repo:
+   ```bash
+   git clone https://github.com/prankulgoyal77/Hospital_Management_System.git
+   cd Hospital_Management_System
